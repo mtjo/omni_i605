@@ -1,0 +1,65 @@
+*** PhoneWindowManager.smali	2015-07-14 16:18:02.533732120 +0800
+--- PhoneWindowManager.smali	2015-07-14 16:18:48.941730623 +0800
+***************
+*** 160,165 ****
+  
+  .field mBroadcastWakeLock:Landroid/os/PowerManager$WakeLock;
+  
+  .field mCanHideNavigationBar:Z
+  
+  .field mCarDockEnablesAccelerometer:Z
+--- 160,167 ----
+  
+  .field mBroadcastWakeLock:Landroid/os/PowerManager$WakeLock;
+  
++ .field private mButtonLightEnabled:Z
++ 
+  .field mCanHideNavigationBar:Z
+  
+  .field mCarDockEnablesAccelerometer:Z
+***************
+*** 391,402 ****
+  
+  .field private mPowerKeyTriggered:Z
+  
+! .field private final mPowerLongPress:Ljava/lang/Runnable;
+  
+  .field mPowerManager:Landroid/os/PowerManager;
+  
+  .field mPreloadedRecentApps:Z
+  
+  .field mRecentAppsDialog:Lcom/android/internal/policy/impl/RecentApplicationsDialog;
+  
+  .field mRecentAppsDialogHeldModifiers:I
+--- 393,406 ----
+  
+  .field private mPowerKeyTriggered:Z
+  
+! .field private mPowerLongPress:Ljava/lang/Runnable;
+  
+  .field mPowerManager:Landroid/os/PowerManager;
+  
+  .field mPreloadedRecentApps:Z
+  
++ .field private final mQuickBootLock:Ljava/lang/Object;
++ 
+  .field mRecentAppsDialog:Lcom/android/internal/policy/impl/RecentApplicationsDialog;
+  
+  .field mRecentAppsDialogHeldModifiers:I
+***************
+*** 11950,11955 ****
+  
+      if-eqz v12, :cond_19
+  
+      invoke-interface {v11}, Lcom/android/internal/telephony/ITelephony;->endCall()Z
+      :try_end_5
+      .catch Landroid/os/RemoteException; {:try_start_5 .. :try_end_5} :catch_2
+--- 12004,12011 ----
+  
+      if-eqz v12, :cond_19
+  
++     if-eqz p3, :cond_19
++ 
+      invoke-interface {v11}, Lcom/android/internal/telephony/ITelephony;->endCall()Z
+      :try_end_5
+      .catch Landroid/os/RemoteException; {:try_start_5 .. :try_end_5} :catch_2

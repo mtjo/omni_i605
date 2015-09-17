@@ -1,0 +1,17 @@
+*** ./smali/android/preference/RingtonePreference.smali	2015-07-14 16:18:24.845731400 +0800
+--- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/preference/RingtonePreference.smali	2015-07-14 16:19:11.585729893 +0800
+***************
+*** 311,316 ****
+--- 311,322 ----
+  
+      invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/CharSequence;)Landroid/content/Intent;
+  
++     const-string v0, "com.android.thememanager"
++ 
++     const-string v1, "com.android.thememanager.activity.ThemeTabActivity"
++ 
++     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
++ 
+      return-void
+  .end method
+  

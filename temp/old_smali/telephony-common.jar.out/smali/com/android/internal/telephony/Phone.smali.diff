@@ -1,0 +1,14 @@
+*** ./smali/com/android/internal/telephony/Phone.smali	2015-07-14 16:18:04.285732064 +0800
+--- /home/mtjo/MIUI/omni-i605/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/Phone.smali	2015-07-14 16:18:50.617730569 +0800
+***************
+*** 376,381 ****
+--- 376,384 ----
+  .method public abstract getMessageWaitingIndicator()Z
+  .end method
+  
++ .method public abstract getMiuiIccPhoneBookInterfaceManager()Lcom/android/internal/telephony/MiuiIccPhoneBookInterfaceManager;
++ .end method
++ 
+  .method public abstract getMsisdn()Ljava/lang/String;
+  .end method
+  

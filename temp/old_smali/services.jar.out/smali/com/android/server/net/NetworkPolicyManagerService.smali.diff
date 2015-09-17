@@ -1,0 +1,13 @@
+*** ./smali/com/android/server/net/NetworkPolicyManagerService.smali	2015-07-14 16:18:38.461730961 +0800
+--- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/net/NetworkPolicyManagerService.smali	2015-07-14 16:19:25.889729431 +0800
+***************
+*** 4324,4329 ****
+--- 4324,4331 ----
+      iget-object v0, p0, Lcom/android/server/net/NetworkPolicyManagerService;->mActiveNotifs:Ljava/util/HashSet;
+  
+      invoke-virtual {v0}, Ljava/util/HashSet;->clear()V
++     
++     goto :cond_3
+  
+      invoke-direct {p0}, Lcom/android/server/net/NetworkPolicyManagerService;->currentTimeMillis()J
+  

@@ -1,0 +1,19 @@
+*** ./smali/com/android/internal/telephony/TelephonyCapabilities.smali	2015-07-14 16:18:05.633732020 +0800
+--- /home/mtjo/MIUI/omni-i605/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/TelephonyCapabilities.smali	2015-07-14 16:18:51.945730526 +0800
+***************
+*** 8,14 ****
+  
+  
+  # direct methods
+! .method private constructor <init>()V
+      .locals 0
+  
+      .prologue
+--- 8,14 ----
+  
+  
+  # direct methods
+! .method public constructor <init>()V
+      .locals 0
+  
+      .prologue

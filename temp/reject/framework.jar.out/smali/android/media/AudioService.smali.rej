@@ -1,0 +1,19 @@
+*** AudioService.smali	2015-07-14 16:18:29.573731248 +0800
+--- AudioService.smali	2015-07-14 16:19:16.285729741 +0800
+***************
+*** 9639,9644 ****
+  
+      invoke-interface {v12, v5, v13}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
+  
+      .end local v4    # "h":Landroid/media/AudioService$SetModeDeathHandler;
+      :cond_2
+      const/4 v10, 0x0
+--- 9711,9718 ----
+  
+      invoke-interface {v12, v5, v13}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
+  
++     const/4 v5, 0x0
++ 
+      .end local v4    # "h":Landroid/media/AudioService$SetModeDeathHandler;
+      :cond_2
+      const/4 v10, 0x0

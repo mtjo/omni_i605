@@ -1,0 +1,20 @@
+*** WindowManagerPolicy$WindowManagerFuncs.smali	2015-07-14 16:18:23.237731452 +0800
+--- WindowManagerPolicy$WindowManagerFuncs.smali	2015-07-14 16:19:10.077729941 +0800
+***************
+*** 32,37 ****
+  .method public abstract getWindowManagerLock()Ljava/lang/Object;
+  .end method
+  
+  .method public abstract rebootSafeMode(Z)V
+  .end method
+  
+--- 32,40 ----
+  .method public abstract getWindowManagerLock()Ljava/lang/Object;
+  .end method
+  
++ .method public abstract reboot()V
++ .end method
++ 
+  .method public abstract rebootSafeMode(Z)V
+  .end method
+  
