@@ -1,5 +1,5 @@
-*** ./smali/android/widget/OverScroller.smali	2015-07-14 16:18:08.589731925 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/widget/OverScroller.smali	2015-07-14 16:18:54.829730433 +0800
+*** ./smali/android/widget/OverScroller.smali	2015-11-07 12:39:25.908039400 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/widget/OverScroller.smali	2015-11-07 12:42:09.072042045 +0800
 ***************
 *** 30,35 ****
 --- 30,37 ----

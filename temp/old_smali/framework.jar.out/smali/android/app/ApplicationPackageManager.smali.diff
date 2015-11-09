@@ -1,5 +1,5 @@
-*** ./smali/android/app/ApplicationPackageManager.smali	2015-07-14 16:18:26.449731349 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/app/ApplicationPackageManager.smali	2015-07-14 16:19:13.261729839 +0800
+*** ./smali/android/app/ApplicationPackageManager.smali	2015-11-07 12:38:57.060038932 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/ApplicationPackageManager.smali	2015-11-07 12:41:37.332041530 +0800
 ***************
 *** 1466,1471 ****
 --- 1466,1480 ----

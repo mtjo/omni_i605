@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/statusbar/IStatusBar$Stub$Proxy.smali	2015-07-14 16:18:45.825730724 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/statusbar/IStatusBar$Stub$Proxy.smali	2015-07-14 16:19:33.521729185 +0800
+*** ./smali/com/android/internal/statusbar/IStatusBar$Stub$Proxy.smali	2015-11-07 12:39:36.388039570 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/statusbar/IStatusBar$Stub$Proxy.smali	2015-11-07 12:42:20.208042225 +0800
 ***************
 *** 666,671 ****
 --- 666,742 ----

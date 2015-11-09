@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/wm/WindowStateAnimator.smali	2015-07-14 16:18:40.949730881 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/wm/WindowStateAnimator.smali	2015-07-14 16:19:28.425729349 +0800
+*** ./smali/com/android/server/wm/WindowStateAnimator.smali	2015-11-07 12:38:39.548038648 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/wm/WindowStateAnimator.smali	2015-11-07 12:41:18.984041233 +0800
 ***************
 *** 2829,2834 ****
 --- 2829,2849 ----

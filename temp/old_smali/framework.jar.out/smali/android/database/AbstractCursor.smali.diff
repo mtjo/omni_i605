@@ -1,5 +1,5 @@
-*** ./smali/android/database/AbstractCursor.smali	2015-07-14 16:18:19.621731569 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/database/AbstractCursor.smali	2015-07-14 16:19:05.681730083 +0800
+*** ./smali/android/database/AbstractCursor.smali	2015-11-07 12:39:08.760039122 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/database/AbstractCursor.smali	2015-11-07 12:41:50.536041744 +0800
 ***************
 *** 825,830 ****
 --- 825,839 ----

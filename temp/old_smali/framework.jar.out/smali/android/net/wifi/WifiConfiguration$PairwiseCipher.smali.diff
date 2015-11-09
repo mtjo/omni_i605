@@ -1,5 +1,5 @@
-*** ./smali/android/net/wifi/WifiConfiguration$PairwiseCipher.smali	2015-07-14 16:18:16.845731658 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiConfiguration$PairwiseCipher.smali	2015-07-14 16:19:02.917730172 +0800
+*** ./smali/android/net/wifi/WifiConfiguration$PairwiseCipher.smali	2015-11-07 12:39:28.736039446 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiConfiguration$PairwiseCipher.smali	2015-11-07 12:42:12.096042094 +0800
 ***************
 *** 31,37 ****
       .locals 3

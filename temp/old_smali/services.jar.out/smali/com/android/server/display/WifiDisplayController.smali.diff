@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/display/WifiDisplayController.smali	2015-07-14 16:18:44.145730778 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/display/WifiDisplayController.smali	2015-07-14 16:19:31.621729246 +0800
+*** ./smali/com/android/server/display/WifiDisplayController.smali	2015-11-07 12:38:45.128038739 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/display/WifiDisplayController.smali	2015-11-07 12:41:24.720041326 +0800
 ***************
 *** 2068,2074 ****
   

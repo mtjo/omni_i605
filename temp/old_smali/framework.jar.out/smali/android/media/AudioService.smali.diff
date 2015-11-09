@@ -1,5 +1,5 @@
-*** ./smali/android/media/AudioService.smali	2015-07-14 16:18:29.573731248 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/media/AudioService.smali	2015-07-14 16:19:16.285729741 +0800
+*** ./smali/android/media/AudioService.smali	2015-11-07 12:39:09.928039141 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/media/AudioService.smali	2015-11-07 12:41:51.752041764 +0800
 ***************
 *** 355,361 ****
   

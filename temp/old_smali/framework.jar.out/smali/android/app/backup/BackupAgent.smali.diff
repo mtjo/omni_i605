@@ -1,5 +1,5 @@
-*** ./smali/android/app/backup/BackupAgent.smali	2015-07-14 16:18:27.169731325 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/app/backup/BackupAgent.smali	2015-07-14 16:19:13.929729817 +0800
+*** ./smali/android/app/backup/BackupAgent.smali	2015-11-07 12:38:57.540038940 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/backup/BackupAgent.smali	2015-11-07 12:41:37.856041539 +0800
 ***************
 *** 67,72 ****
 --- 67,100 ----
@@ -56,3 +56,17 @@
   
       move-result v1
   
+***************
+*** 1134,1139 ****
+--- 1164,1174 ----
+  
+      invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+  
++     if-nez p1, :cond_miui_00
++ 
++     return-void
++ 
++     :cond_miui_00
+      const-string v2, "f"
+  
+      move-object/from16 v0, p5

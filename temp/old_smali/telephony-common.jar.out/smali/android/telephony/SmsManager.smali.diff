@@ -1,5 +1,5 @@
-*** ./smali/android/telephony/SmsManager.smali	2015-07-14 16:18:02.989732105 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/telephony-common.jar.out/./smali/android/telephony/SmsManager.smali	2015-07-14 16:18:49.369730609 +0800
+*** ./smali/android/telephony/SmsManager.smali	2015-11-07 12:38:50.404038824 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/telephony-common.jar.out/./smali/android/telephony/SmsManager.smali	2015-11-07 12:41:30.296041416 +0800
 ***************
 *** 189,194 ****
 --- 189,204 ----

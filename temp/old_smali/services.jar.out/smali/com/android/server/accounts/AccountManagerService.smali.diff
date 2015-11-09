@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/accounts/AccountManagerService.smali	2015-07-14 16:18:42.037730846 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/accounts/AccountManagerService.smali	2015-07-14 16:19:29.385729318 +0800
+*** ./smali/com/android/server/accounts/AccountManagerService.smali	2015-11-07 12:38:36.484038599 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/accounts/AccountManagerService.smali	2015-11-07 12:41:16.424041191 +0800
 ***************
 *** 3678,3688 ****
   

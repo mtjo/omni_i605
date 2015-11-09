@@ -1,5 +1,5 @@
-*** ./smali/android/net/CaptivePortalTracker.smali	2015-07-14 16:18:17.685731631 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/net/CaptivePortalTracker.smali	2015-07-14 16:19:03.693730147 +0800
+*** ./smali/android/net/CaptivePortalTracker.smali	2015-11-07 12:39:30.220039470 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/CaptivePortalTracker.smali	2015-11-07 12:42:13.820042122 +0800
 ***************
 *** 730,735 ****
 --- 730,745 ----

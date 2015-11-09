@@ -1,5 +1,5 @@
-*** ./smali/android/app/Activity.smali	2015-07-14 16:18:26.393731350 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/app/Activity.smali	2015-07-14 16:19:13.197729841 +0800
+*** ./smali/android/app/Activity.smali	2015-11-07 12:38:58.000038947 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/Activity.smali	2015-11-07 12:41:38.300041546 +0800
 ***************
 *** 5129,5146 ****
   .end method

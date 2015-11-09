@@ -22,6 +22,7 @@
 # instance fields
 .field mContentResolver:Landroid/content/ContentResolver;
 
+.field private mSystemServiceManager:Lcom/android/server/SystemServiceManager;
 
 # direct methods
 .method constructor <init>()V
@@ -33,6 +34,16 @@
 
     .line 94
     return-void
+.end method
+
+.method static synthetic access$mSystemServiceManager(Lcom/android/server/ServerThread;)Lcom/android/server/SystemServiceManager;
+    .locals 1
+    .param p0, "x0"    # Lcom/android/server/ServerThread;
+
+    .prologue
+    iget-object v0, p0, Lcom/android/server/ServerThread;->mSystemServiceManager:Lcom/android/server/SystemServiceManager;
+
+    return-object v0
 .end method
 
 .method static final startSystemUi(Landroid/content/Context;)V
@@ -534,6 +545,22 @@
     .line 228
     .local v89, "disableNetwork":Z
     :try_start_3
+    new-instance v7, Lcom/android/server/SystemServiceManager;
+
+    invoke-direct {v7, v5}, Lcom/android/server/SystemServiceManager;-><init>(Landroid/content/Context;)V
+
+    move-object/from16 v0, p0
+
+    iput-object v7, v0, Lcom/android/server/ServerThread;->mSystemServiceManager:Lcom/android/server/SystemServiceManager;
+
+    const-class v7, Lcom/android/server/SystemServiceManager;
+
+    move-object/from16 v0, p0
+
+    iget-object v9, v0, Lcom/android/server/ServerThread;->mSystemServiceManager:Lcom/android/server/SystemServiceManager;
+
+    invoke-static {v7, v9}, Lcom/android/server/LocalServices;->addService(Ljava/lang/Class;Ljava/lang/Object;)V
+
     const-string v7, "SystemServer"
 
     const-string v9, "Display Manager"
@@ -2222,23 +2249,9 @@
     .restart local v132    # "serial":Lcom/android/server/SerialService;
     :cond_14
     :goto_2d
-    const-string v7, "security"
-
-    new-instance v9, Lcom/miui/server/SecurityManagerService;
-
     move/from16 v0, v24
 
-    invoke-direct {v9, v5, v0}, Lcom/miui/server/SecurityManagerService;-><init>(Landroid/content/Context;Z)V
-
-    invoke-static {v7, v9}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
-
-    const-string v7, "MiuiInit"
-
-    new-instance v9, Lcom/miui/server/MiuiInitServer;
-
-    invoke-direct {v9, v5}, Lcom/miui/server/MiuiInitServer;-><init>(Landroid/content/Context;)V
-
-    invoke-static {v7, v9}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-static {v5, v0}, Lcom/android/server/SystemServerInjector;->addExtraServices(Landroid/content/Context;Z)V
 
     :try_start_43
     const-string v7, "SystemServer"
@@ -2817,6 +2830,22 @@
 
     .line 901
     :cond_1f
+    move-object/from16 v0, p0
+
+    iget-object v7, v0, Lcom/android/server/ServerThread;->mSystemServiceManager:Lcom/android/server/SystemServiceManager;
+
+    const-class v9, Lcom/android/server/job/JobSchedulerService;
+
+    invoke-virtual {v7, v9}, Lcom/android/server/SystemServiceManager;->startService(Ljava/lang/Class;)Lcom/android/server/SystemService;
+
+    move-object/from16 v0, p0
+
+    iget-object v7, v0, Lcom/android/server/ServerThread;->mSystemServiceManager:Lcom/android/server/SystemServiceManager;
+
+    const/16 v9, 0x1f4
+
+    invoke-virtual {v7, v9}, Lcom/android/server/SystemServiceManager;->startBootPhase(I)V
+
     :goto_42
     :try_start_5d
     invoke-virtual/range {v159 .. v159}, Lcom/android/server/wm/WindowManagerService;->systemReady()V

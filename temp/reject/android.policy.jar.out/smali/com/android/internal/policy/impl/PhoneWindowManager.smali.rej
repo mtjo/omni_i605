@@ -1,5 +1,5 @@
-*** PhoneWindowManager.smali	2015-07-14 16:18:02.533732120 +0800
---- PhoneWindowManager.smali	2015-07-14 16:18:48.941730623 +0800
+*** PhoneWindowManager.smali	2015-11-07 12:38:50.872038832 +0800
+--- PhoneWindowManager.smali	2015-11-07 12:41:30.796041424 +0800
 ***************
 *** 160,165 ****
   

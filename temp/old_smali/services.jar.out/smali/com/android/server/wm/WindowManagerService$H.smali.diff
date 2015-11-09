@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/wm/WindowManagerService$H.smali	2015-07-14 16:18:40.881730883 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/wm/WindowManagerService$H.smali	2015-07-14 16:19:28.357729352 +0800
+*** ./smali/com/android/server/wm/WindowManagerService$H.smali	2015-11-07 12:38:39.588038649 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/wm/WindowManagerService$H.smali	2015-11-07 12:41:19.024041234 +0800
 ***************
 *** 790,795 ****
 --- 790,801 ----

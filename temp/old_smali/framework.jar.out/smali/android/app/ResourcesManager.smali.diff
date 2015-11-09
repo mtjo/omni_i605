@@ -1,5 +1,5 @@
-*** ./smali/android/app/ResourcesManager.smali	2015-07-14 16:18:26.201731357 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/app/ResourcesManager.smali	2015-07-14 16:19:12.897729850 +0800
+*** ./smali/android/app/ResourcesManager.smali	2015-11-07 12:38:55.920038914 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/ResourcesManager.smali	2015-11-07 12:41:36.144041511 +0800
 ***************
 *** 215,220 ****
 --- 215,222 ----

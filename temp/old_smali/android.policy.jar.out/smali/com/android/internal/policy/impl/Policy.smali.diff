@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/policy/impl/Policy.smali	2015-07-14 16:18:02.449732123 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/android.policy.jar.out/./smali/com/android/internal/policy/impl/Policy.smali	2015-07-14 16:18:48.873730625 +0800
+*** ./smali/com/android/internal/policy/impl/Policy.smali	2015-11-07 12:38:51.360038840 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/android.policy.jar.out/./smali/com/android/internal/policy/impl/Policy.smali	2015-11-07 12:41:31.312041433 +0800
 ***************
 *** 164,172 ****
       .param p1, "context"    # Landroid/content/Context;

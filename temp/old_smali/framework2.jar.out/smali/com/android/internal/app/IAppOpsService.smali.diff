@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/app/IAppOpsService.smali	2015-07-14 16:18:47.421730672 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/app/IAppOpsService.smali	2015-07-14 16:19:35.181729132 +0800
+*** ./smali/com/android/internal/app/IAppOpsService.smali	2015-11-07 12:39:33.488039523 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/app/IAppOpsService.smali	2015-11-07 12:42:17.260042178 +0800
 ***************
 *** 23,28 ****
 --- 23,36 ----

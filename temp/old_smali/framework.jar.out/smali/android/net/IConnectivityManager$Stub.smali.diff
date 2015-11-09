@@ -1,5 +1,5 @@
-*** ./smali/android/net/IConnectivityManager$Stub.smali	2015-07-14 16:18:15.485731702 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/net/IConnectivityManager$Stub.smali	2015-07-14 16:19:01.533730217 +0800
+*** ./smali/android/net/IConnectivityManager$Stub.smali	2015-11-07 12:39:27.656039428 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/IConnectivityManager$Stub.smali	2015-11-07 12:42:10.912042075 +0800
 ***************
 *** 144,149 ****
 --- 144,152 ----

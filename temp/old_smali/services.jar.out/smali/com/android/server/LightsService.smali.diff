@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/LightsService.smali	2015-07-14 16:18:37.545730991 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/LightsService.smali	2015-07-14 16:19:24.985729460 +0800
+*** ./smali/com/android/server/LightsService.smali	2015-11-07 12:38:41.956038687 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/LightsService.smali	2015-11-07 12:41:21.420041272 +0800
 ***************
 *** 207,209 ****
 --- 207,222 ----

@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/am/ActivityStackSupervisor.smali	2015-07-14 16:18:39.833730917 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityStackSupervisor.smali	2015-07-14 16:19:27.289729386 +0800
+*** ./smali/com/android/server/am/ActivityStackSupervisor.smali	2015-11-07 12:38:43.672038715 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityStackSupervisor.smali	2015-11-07 12:41:23.188041301 +0800
 ***************
 *** 7331,7336 ****
 --- 7331,7395 ----

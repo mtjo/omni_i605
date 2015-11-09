@@ -1,5 +1,5 @@
-*** ./smali/android/net/MobileDataStateTracker.smali	2015-07-14 16:18:15.541731701 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/net/MobileDataStateTracker.smali	2015-07-14 16:19:01.585730215 +0800
+*** ./smali/android/net/MobileDataStateTracker.smali	2015-11-07 12:39:27.524039426 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/MobileDataStateTracker.smali	2015-11-07 12:42:10.776042073 +0800
 ***************
 *** 47,53 ****
   
@@ -23,11 +23,11 @@
   
       invoke-direct {p0}, Landroid/net/BaseNetworkStateTracker;-><init>()V
   
-+     invoke-static {}, Lmiui/telephony/MultiSimManager;->getInstance()Lmiui/telephony/MultiSimManager;
++     invoke-static {}, Lmiui/telephony/TelephonyManager;->getDefault()Lmiui/telephony/TelephonyManager;
 + 
 +     move-result-object v2
 + 
-+     invoke-virtual {v2}, Lmiui/telephony/MultiSimManager;->getMultiSimCount()I
++     invoke-virtual {v2}, Lmiui/telephony/TelephonyManager;->getPhoneCount()I
 + 
 +     move-result v2
 + 
@@ -48,11 +48,11 @@
 +     .param p1, "forceRefresh"    # Z
 + 
 +     .prologue
-+     invoke-static {}, Lmiui/telephony/MultiSimManager;->getInstance()Lmiui/telephony/MultiSimManager;
++     invoke-static {}, Lmiui/telephony/TelephonyManager;->getDefault()Lmiui/telephony/TelephonyManager;
 + 
 +     move-result-object v2
 + 
-+     invoke-virtual {v2}, Lmiui/telephony/MultiSimManager;->getMultiSimCount()I
++     invoke-virtual {v2}, Lmiui/telephony/TelephonyManager;->getPhoneCount()I
 + 
 +     move-result v0
 + 
@@ -251,11 +251,11 @@
 + 
 +     invoke-direct {p0, v3}, Landroid/net/MobileDataStateTracker;->getPhoneService(Z)V
 + 
-+     invoke-static {}, Lmiui/telephony/MultiSimManager;->getInstance()Lmiui/telephony/MultiSimManager;
++     invoke-static {}, Lmiui/telephony/SubscriptionManager;->getDefault()Lmiui/telephony/SubscriptionManager;
 + 
 +     move-result-object v3
 + 
-+     invoke-virtual {v3}, Lmiui/telephony/MultiSimManager;->getPreferredDataSlotId()I
++     invoke-virtual {v3}, Lmiui/telephony/SubscriptionManager;->getDefaultDataSlotId()I
 + 
 +     move-result v0
 + 

@@ -1,5 +1,5 @@
-*** ./smali/android/view/ViewRootImpl$ImeInputStage.smali	2015-07-14 16:18:22.553731474 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/view/ViewRootImpl$ImeInputStage.smali	2015-07-14 16:19:09.209729969 +0800
+*** ./smali/android/view/ViewRootImpl$ImeInputStage.smali	2015-11-07 12:39:04.860039059 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/view/ViewRootImpl$ImeInputStage.smali	2015-11-07 12:41:45.740041667 +0800
 ***************
 *** 104,109 ****
 --- 104,120 ----

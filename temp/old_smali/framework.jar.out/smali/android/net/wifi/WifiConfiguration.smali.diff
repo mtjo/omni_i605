@@ -1,5 +1,5 @@
-*** ./smali/android/net/wifi/WifiConfiguration.smali	2015-07-14 16:18:17.145731649 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiConfiguration.smali	2015-07-14 16:19:03.177730164 +0800
+*** ./smali/android/net/wifi/WifiConfiguration.smali	2015-11-07 12:39:28.728039445 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiConfiguration.smali	2015-11-07 12:42:12.088042094 +0800
 ***************
 *** 97,102 ****
 --- 97,112 ----

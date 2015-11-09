@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/telephony/uicc/UiccCard.smali	2015-07-14 16:18:04.633732052 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/uicc/UiccCard.smali	2015-07-14 16:18:50.969730558 +0800
+*** ./smali/com/android/internal/telephony/uicc/UiccCard.smali	2015-11-07 12:38:47.760038781 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/uicc/UiccCard.smali	2015-11-07 12:41:27.564041372 +0800
 ***************
 *** 313,318 ****
 --- 313,525 ----

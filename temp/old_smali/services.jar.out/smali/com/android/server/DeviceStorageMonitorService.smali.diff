@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/DeviceStorageMonitorService.smali	2015-07-14 16:18:39.021730943 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/DeviceStorageMonitorService.smali	2015-07-14 16:19:26.453729413 +0800
+*** ./smali/com/android/server/DeviceStorageMonitorService.smali	2015-11-07 12:38:36.840038604 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/DeviceStorageMonitorService.smali	2015-11-07 12:41:16.880041199 +0800
 ***************
 *** 1120,1126 ****
   

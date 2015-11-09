@@ -1,5 +1,5 @@
-*** ./smali/android/view/ViewRootImpl.smali	2015-07-14 16:18:24.121731424 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/view/ViewRootImpl.smali	2015-07-14 16:19:10.905729915 +0800
+*** ./smali/android/view/ViewRootImpl.smali	2015-11-07 12:39:06.164039080 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/view/ViewRootImpl.smali	2015-11-07 12:41:47.400041694 +0800
 ***************
 *** 9130,9135 ****
 --- 9130,9153 ----

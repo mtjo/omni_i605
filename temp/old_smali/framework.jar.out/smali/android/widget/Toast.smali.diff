@@ -1,5 +1,5 @@
-*** ./smali/android/widget/Toast.smali	2015-07-14 16:18:10.413731866 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/widget/Toast.smali	2015-07-14 16:18:56.593730376 +0800
+*** ./smali/android/widget/Toast.smali	2015-11-07 12:39:22.808039349 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/widget/Toast.smali	2015-11-07 12:42:05.676041990 +0800
 ***************
 *** 405,410 ****
 --- 405,426 ----
@@ -25,3 +25,23 @@
   .method public setView(Landroid/view/View;)V
       .locals 0
       .param p1, "view"    # Landroid/view/View;
+***************
+*** 419,424 ****
+--- 435,451 ----
+      .locals 5
+  
+      .prologue
++     iget-object v3, p0, Landroid/widget/Toast;->mContext:Landroid/content/Context;
++ 
++     invoke-static {p0, v3}, Landroid/widget/ToastInjector;->interceptBackgroundToast(Landroid/widget/Toast;Landroid/content/Context;)Z
++ 
++     move-result v3
++ 
++     if-nez v3, :cond_miui
++ 
++     return-void
++ 
++     :cond_miui
+      iget-object v3, p0, Landroid/widget/Toast;->mNextView:Landroid/view/View;
+  
+      if-nez v3, :cond_0

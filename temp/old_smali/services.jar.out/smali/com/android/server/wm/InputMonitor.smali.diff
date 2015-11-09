@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/wm/InputMonitor.smali	2015-07-14 16:18:40.849730884 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/wm/InputMonitor.smali	2015-07-14 16:19:28.325729353 +0800
+*** ./smali/com/android/server/wm/InputMonitor.smali	2015-11-07 12:38:39.764038652 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/wm/InputMonitor.smali	2015-11-07 12:41:19.208041237 +0800
 ***************
 *** 720,725 ****
 --- 720,740 ----

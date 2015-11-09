@@ -1,5 +1,5 @@
-*** ./smali/android/app/StatusBarManager.smali	2015-07-14 16:18:25.449731381 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/app/StatusBarManager.smali	2015-07-14 16:19:12.117729876 +0800
+*** ./smali/android/app/StatusBarManager.smali	2015-11-07 12:38:58.052038948 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/StatusBarManager.smali	2015-11-07 12:41:38.352041547 +0800
 ***************
 *** 407,409 ****
 --- 407,445 ----

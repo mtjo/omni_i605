@@ -1,5 +1,5 @@
-*** ./smali/android/widget/TextView.smali	2015-07-14 16:18:09.061731910 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/widget/TextView.smali	2015-07-14 16:18:55.305730418 +0800
+*** ./smali/android/widget/TextView.smali	2015-11-07 12:39:23.124039355 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/widget/TextView.smali	2015-11-07 12:42:06.012041995 +0800
 ***************
 *** 20116,20128 ****
   

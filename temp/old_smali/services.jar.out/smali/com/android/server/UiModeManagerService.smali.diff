@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/UiModeManagerService.smali	2015-07-14 16:18:38.669730954 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/UiModeManagerService.smali	2015-07-14 16:19:26.097729425 +0800
+*** ./smali/com/android/server/UiModeManagerService.smali	2015-11-07 12:38:37.200038610 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/UiModeManagerService.smali	2015-11-07 12:41:17.320041206 +0800
 ***************
 *** 30,36 ****
   

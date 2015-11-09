@@ -1168,7 +1168,6 @@
     .line 245
     .end local v1    # "r":Lcom/android/server/am/ActivityRecord;
     :cond_2
-
     return-void
 .end method
 
@@ -1600,6 +1599,8 @@
     .line 176
     .end local v3    # "r":Lcom/android/server/am/ActivityRecord;
     :cond_2
+    invoke-direct {p0, v1, v2}, Lcom/android/server/am/TaskRecord;->setFrontOfTask_After(ZI)V
+
     if-nez v1, :cond_3
 
     if-lez v2, :cond_3

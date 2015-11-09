@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/widget/SizeAdaptiveLayout.smali	2015-07-14 16:18:45.677730728 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/widget/SizeAdaptiveLayout.smali	2015-07-14 16:19:33.353729190 +0800
+*** ./smali/com/android/internal/widget/SizeAdaptiveLayout.smali	2015-11-07 12:39:36.512039572 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/widget/SizeAdaptiveLayout.smali	2015-11-07 12:42:20.320042227 +0800
 ***************
 *** 297,306 ****
       .prologue

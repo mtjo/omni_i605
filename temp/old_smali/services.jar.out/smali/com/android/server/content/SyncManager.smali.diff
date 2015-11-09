@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/content/SyncManager.smali	2015-07-14 16:18:43.665730793 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/content/SyncManager.smali	2015-07-14 16:19:31.157729261 +0800
+*** ./smali/com/android/server/content/SyncManager.smali	2015-11-07 12:38:37.500038615 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/content/SyncManager.smali	2015-11-07 12:41:17.716041212 +0800
 ***************
 *** 7,12 ****
 --- 7,13 ----

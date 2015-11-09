@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/AssetAtlasService.smali	2015-07-14 16:18:39.141730939 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/AssetAtlasService.smali	2015-07-14 16:19:26.569729409 +0800
+*** ./smali/com/android/server/AssetAtlasService.smali	2015-11-07 12:38:45.704038748 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/AssetAtlasService.smali	2015-11-07 12:41:25.328041336 +0800
 ***************
 *** 35,40 ****
 --- 35,42 ----

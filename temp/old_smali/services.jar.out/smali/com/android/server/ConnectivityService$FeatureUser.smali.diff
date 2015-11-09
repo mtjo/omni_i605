@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/ConnectivityService$FeatureUser.smali	2015-07-14 16:18:41.797730854 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/ConnectivityService$FeatureUser.smali	2015-07-14 16:19:29.181729325 +0800
+*** ./smali/com/android/server/ConnectivityService$FeatureUser.smali	2015-11-07 12:38:44.876038735 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/ConnectivityService$FeatureUser.smali	2015-11-07 12:41:24.452041322 +0800
 ***************
 *** 28,33 ****
 --- 28,35 ----

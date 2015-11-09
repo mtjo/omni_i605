@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/app/LocalePicker.smali	2015-07-14 16:18:47.313730676 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/app/LocalePicker.smali	2015-07-14 16:19:35.077729135 +0800
+*** ./smali/com/android/internal/app/LocalePicker.smali	2015-11-07 12:39:33.840039528 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/app/LocalePicker.smali	2015-11-07 12:42:17.636042184 +0800
 ***************
 *** 464,470 ****
       goto :goto_3

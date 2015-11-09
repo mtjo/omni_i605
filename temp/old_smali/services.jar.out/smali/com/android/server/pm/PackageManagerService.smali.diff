@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/pm/PackageManagerService.smali	2015-07-14 16:18:38.037730975 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/pm/PackageManagerService.smali	2015-07-14 16:19:25.465729445 +0800
+*** ./smali/com/android/server/pm/PackageManagerService.smali	2015-11-07 12:38:40.740038667 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/pm/PackageManagerService.smali	2015-11-07 12:41:20.180041252 +0800
 ***************
 *** 917,922 ****
 --- 917,930 ----
@@ -159,6 +159,34 @@
       :cond_2
       :goto_1
 ***************
+*** 15877,15882 ****
+--- 15939,15963 ----
+  
+      .restart local p1    # "pkg":Landroid/content/pm/PackageParser$Package;
+      :cond_1
++     const-string v3, "install"
++ 
++     move-object/from16 v0, p0
++ 
++     move-object/from16 v1, p1
++ 
++     move-object/from16 v2, v58
++ 
++     invoke-direct {v0, v1, v2, v3}, Lcom/android/server/pm/PackageManagerService;->tryIgnorePackage(Landroid/content/pm/PackageParser$Package;Ljava/io/File;Ljava/lang/String;)Z
++ 
++     move-result v3
++ 
++     if-eqz v3, :cond_miui_20
++ 
++     const/16 p1, 0x0
++ 
++     return-object p1
++ 
++     :cond_miui_20
+      and-int/lit8 v3, p2, 0x1
+  
+      if-eqz v3, :cond_2
+***************
 *** 16333,16343 ****
   
       and-int/lit8 v3, p2, 0x40
@@ -171,7 +199,7 @@
       move-object/from16 v0, p0
   
       move-object/from16 v1, p1
---- 16395,16416 ----
+--- 16414,16435 ----
   
       and-int/lit8 v3, p2, 0x40
   
@@ -195,8 +223,56 @@
   
       move-object/from16 v1, p1
 ***************
+*** 16367,16372 ****
+--- 16459,16477 ----
+      .restart local p1    # "pkg":Landroid/content/pm/PackageParser$Package;
+      :cond_b
+      :try_start_3
++     invoke-direct/range {p0 .. p1}, Lcom/android/server/pm/PackageManagerService;->checkMiuiSdk(Landroid/content/pm/PackageParser$Package;)Z
++ 
++     move-result v3
++ 
++     if-nez v3, :cond_miui_d
++ 
++     const/16 p1, 0x0
++ 
++     monitor-exit v15
++ 
++     goto/16 :goto_0
++ 
++     :cond_miui_d
+      move-object/from16 v0, p1
+  
+      iget-object v3, v0, Landroid/content/pm/PackageParser$Package;->mSharedUserId:Ljava/lang/String;
+***************
+*** 21395,21400 ****
+--- 21500,21522 ----
+      return-object v21
+  
+      :cond_1
++     const-string v3, "boot scanning"
++ 
++     move-object/from16 v0, p0
++ 
++     move-object/from16 v1, p1
++ 
++     invoke-direct {v0, v6, v1, v3}, Lcom/android/server/pm/PackageManagerService;->tryIgnorePackage(Landroid/content/pm/PackageParser$Package;Ljava/io/File;Ljava/lang/String;)Z
++ 
++     move-result v3
++ 
++     if-eqz v3, :cond_miui_20
++ 
++     const/16 v3, 0x0
++ 
++     return-object v3
++ 
++     :cond_miui_20
+      const/4 v5, 0x0
+  
+      .local v5, "ps":Lcom/android/server/pm/PackageSetting;
+***************
 *** 27837,27842 ****
---- 27910,28045 ----
+--- 27959,28094 ----
       return-void
   .end method
   
@@ -335,7 +411,7 @@
       .param p1, "packageName"    # Ljava/lang/String;
 ***************
 *** 27904,27913 ****
---- 28107,28123 ----
+--- 28156,28172 ----
       :try_end_0
       .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
   
@@ -355,7 +431,7 @@
       new-instance v0, Lcom/android/server/pm/PackageManagerService$7;
 ***************
 *** 34671,34676 ****
---- 34881,34921 ----
+--- 34930,34970 ----
       .param p6, "encryptionParams"    # Landroid/content/pm/ContainerEncryptionParams;
   
       .prologue
@@ -399,7 +475,7 @@
       const-string v2, "android.permission.INSTALL_PACKAGES"
 ***************
 *** 40472,40477 ****
---- 40717,40726 ----
+--- 40766,40775 ----
       :goto_0
       invoke-static {v0}, Landroid/content/pm/PackageParser;->setCompatibilityModeEnabled(Z)V
   
@@ -410,3 +486,139 @@
       iget-object v8, p0, Lcom/android/server/pm/PackageManagerService;->mPackages:Ljava/util/HashMap;
   
       monitor-enter v8
+***************
+*** 40865,40867 ****
+--- 41163,41295 ----
+  
+      return-void
+  .end method
++ 
++ .method private checkMiuiSdk(Landroid/content/pm/PackageParser$Package;)Z
++     .locals 3
++     .param p1, "pkg"    # Landroid/content/pm/PackageParser$Package;
++ 
++     .prologue
++     :try_start_0
++     invoke-static {p1, p0}, Lcom/android/server/pm/PackageManagerServiceInjector;->checkMiuiSdk(Landroid/content/pm/PackageParser$Package;Lcom/android/server/pm/PackageManagerService;)Z
++     :try_end_0
++     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
++ 
++     move-result v1
++ 
++     if-nez v1, :cond_0
++ 
++     const/4 v1, 0x0
++ 
++     :goto_0
++     return v1
++ 
++     :catch_0
++     move-exception v0
++ 
++     .local v0, "ex":Ljava/lang/Exception;
++     const-string v1, "PackageManager"
++ 
++     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
++ 
++     move-result-object v2
++ 
++     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
++ 
++     .end local v0    # "ex":Ljava/lang/Exception;
++     :cond_0
++     const/4 v1, 0x1
++ 
++     goto :goto_0
++ .end method
++ 
++ .method private tryIgnorePackage(Landroid/content/pm/PackageParser$Package;Ljava/io/File;Ljava/lang/String;)Z
++     .locals 3
++     .param p1, "pkg"    # Landroid/content/pm/PackageParser$Package;
++     .param p2, "scanFile"    # Ljava/io/File;
++     .param p3, "logPriex"    # Ljava/lang/String;
++ 
++     .prologue
++     if-eqz p1, :cond_0
++ 
++     iget-object v0, p1, Landroid/content/pm/PackageParser$Package;->packageName:Ljava/lang/String;
++ 
++     if-eqz v0, :cond_0
++ 
++     if-eqz p2, :cond_0
++ 
++     iget-object v0, p1, Landroid/content/pm/PackageParser$Package;->packageName:Ljava/lang/String;
++ 
++     invoke-static {v0}, Lcom/android/server/pm/PackageManagerServiceInjector;->ignorePackage(Ljava/lang/String;)Z
++ 
++     move-result v0
++ 
++     if-eqz v0, :cond_0
++ 
++     const-string v0, "PackageManager"
++ 
++     new-instance v1, Ljava/lang/StringBuilder;
++ 
++     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
++ 
++     const-string v2, "["
++ 
++     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
++ 
++     move-result-object v1
++ 
++     invoke-virtual {v1, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
++ 
++     move-result-object v1
++ 
++     const-string v2, "]"
++ 
++     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
++ 
++     move-result-object v1
++ 
++     const-string v2, "Skip to scan package, packageName="
++ 
++     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
++ 
++     move-result-object v1
++ 
++     iget-object v2, p1, Landroid/content/pm/PackageParser$Package;->packageName:Ljava/lang/String;
++ 
++     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
++ 
++     move-result-object v1
++ 
++     const-string v2, " path="
++ 
++     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
++ 
++     move-result-object v1
++ 
++     invoke-virtual {p2}, Ljava/io/File;->getPath()Ljava/lang/String;
++ 
++     move-result-object v2
++ 
++     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
++ 
++     move-result-object v1
++ 
++     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
++ 
++     move-result-object v1
++ 
++     invoke-static {v0, v1}, Landroid/util/Slog;->w(Ljava/lang/String;Ljava/lang/String;)I
++ 
++     const/16 v0, -0x3e8
++ 
++     iput v0, p0, Lcom/android/server/pm/PackageManagerService;->mLastScanError:I
++ 
++     const/4 v0, 0x1
++ 
++     :goto_0
++     return v0
++ 
++     :cond_0
++     const/4 v0, 0x0
++ 
++     goto :goto_0
++ .end method

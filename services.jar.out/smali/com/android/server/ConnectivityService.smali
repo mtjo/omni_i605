@@ -2993,21 +2993,6 @@
     return-object v0
 .end method
 
-.method static synthetic access$500(Lcom/android/server/ConnectivityService;Lcom/android/server/ConnectivityService$FeatureUser;Z)I
-    .locals 1
-    .param p0, "x0"    # Lcom/android/server/ConnectivityService;
-    .param p1, "x1"    # Lcom/android/server/ConnectivityService$FeatureUser;
-    .param p2, "x2"    # Z
-
-    .prologue
-    .line 169
-    invoke-direct {p0, p1, p2}, Lcom/android/server/ConnectivityService;->stopUsingNetworkFeature(Lcom/android/server/ConnectivityService$FeatureUser;Z)I
-
-    move-result v0
-
-    return v0
-.end method
-
 .method static synthetic access$5000(Lcom/android/server/ConnectivityService;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/ConnectivityService;
@@ -16579,11 +16564,11 @@
     .param p3, "binder"    # Landroid/os/IBinder;
 
     .prologue
-    invoke-static {}, Lmiui/telephony/MultiSimManager;->getInstance()Lmiui/telephony/MultiSimManager;
+    invoke-static {}, Lmiui/telephony/SubscriptionManager;->getDefault()Lmiui/telephony/SubscriptionManager;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lmiui/telephony/MultiSimManager;->getPreferredDataSlotId()I
+    invoke-virtual {v1}, Lmiui/telephony/SubscriptionManager;->getDefaultDataSlotId()I
 
     move-result v0
 
@@ -16616,11 +16601,11 @@
     .param p2, "feature"    # Ljava/lang/String;
 
     .prologue
-    invoke-static {}, Lmiui/telephony/MultiSimManager;->getInstance()Lmiui/telephony/MultiSimManager;
+    invoke-static {}, Lmiui/telephony/SubscriptionManager;->getDefault()Lmiui/telephony/SubscriptionManager;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lmiui/telephony/MultiSimManager;->getPreferredDataSlotId()I
+    invoke-virtual {v1}, Lmiui/telephony/SubscriptionManager;->getDefaultDataSlotId()I
 
     move-result v0
 
@@ -16653,24 +16638,17 @@
     .param p3, "binder"    # Landroid/os/IBinder;
 
     .prologue
-    const/4 v3, -0x1
+    invoke-static/range {p4 .. p4}, Lmiui/telephony/SubscriptionManager;->isValidSlotId(I)Z
 
-    move/from16 v0, p4
+    move-result v3
 
-    if-le v0, v3, :cond_miui_0
+    if-nez v3, :cond_miui_0
 
-    const/4 v3, 0x3
-
-    move/from16 v0, p4
-
-    if-le v0, v3, :cond_miui_1
-
-    :cond_miui_0
     const/4 v3, 0x3
 
     return v3
 
-    :cond_miui_1
+    :cond_miui_0
     const-wide/16 v14, 0x0
 
     .local v14, "startTime":J
@@ -17880,20 +17858,17 @@
     .param p2, "feature"    # Ljava/lang/String;
 
     .prologue
-    const/4 v1, 0x3
+    invoke-static {p3}, Lmiui/telephony/SubscriptionManager;->isValidSlotId(I)Z
 
-    const/4 v2, 0x1
+    move-result v1
 
-    const/4 v3, -0x1
+    if-nez v1, :cond_miui_0
 
-    if-le p3, v3, :cond_miui_0
+    const/4 v2, 0x3
 
-    if-le p3, v1, :cond_miui_1
+    return v2
 
     :cond_miui_0
-    return v1
-
-    :cond_miui_1
     const/4 v6, 0x1
 
     .line 1415

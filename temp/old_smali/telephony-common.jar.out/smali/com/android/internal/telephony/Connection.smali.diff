@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/telephony/Connection.smali	2015-07-14 16:18:04.429732059 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/Connection.smali	2015-07-14 16:18:50.753730565 +0800
+*** ./smali/com/android/internal/telephony/Connection.smali	2015-11-07 12:38:48.972038801 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/Connection.smali	2015-11-07 12:41:28.772041392 +0800
 ***************
 *** 21,26 ****
 --- 21,28 ----

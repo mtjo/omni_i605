@@ -1,5 +1,5 @@
-*** ./smali/android/media/MediaScanner$MyMediaScannerClient.smali	2015-07-14 16:18:29.421731253 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/media/MediaScanner$MyMediaScannerClient.smali	2015-07-14 16:19:16.113729747 +0800
+*** ./smali/android/media/MediaScanner$MyMediaScannerClient.smali	2015-11-07 12:39:12.288039179 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/media/MediaScanner$MyMediaScannerClient.smali	2015-11-07 12:41:54.364041806 +0800
 ***************
 *** 3363,3369 ****
   

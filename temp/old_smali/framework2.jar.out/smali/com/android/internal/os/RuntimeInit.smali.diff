@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/os/RuntimeInit.smali	2015-07-14 16:18:46.129730714 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/os/RuntimeInit.smali	2015-07-14 16:19:33.861729174 +0800
+*** ./smali/com/android/internal/os/RuntimeInit.smali	2015-11-07 12:39:36.152039566 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/os/RuntimeInit.smali	2015-11-07 12:42:19.976042222 +0800
 ***************
 *** 167,173 ****
   

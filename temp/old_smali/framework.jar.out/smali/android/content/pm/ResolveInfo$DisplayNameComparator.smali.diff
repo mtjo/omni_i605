@@ -1,5 +1,5 @@
-*** ./smali/android/content/pm/ResolveInfo$DisplayNameComparator.smali	2015-07-14 16:18:34.697731083 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/content/pm/ResolveInfo$DisplayNameComparator.smali	2015-07-14 16:19:22.061729555 +0800
+*** ./smali/android/content/pm/ResolveInfo$DisplayNameComparator.smali	2015-11-07 12:38:59.952038979 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/pm/ResolveInfo$DisplayNameComparator.smali	2015-11-07 12:41:40.408041580 +0800
 ***************
 *** 66,71 ****
 --- 66,96 ----

@@ -1,5 +1,5 @@
-*** ./smali/android/view/ScaleGestureDetector.smali	2015-07-14 16:18:22.361731481 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/view/ScaleGestureDetector.smali	2015-07-14 16:19:09.033729975 +0800
+*** ./smali/android/view/ScaleGestureDetector.smali	2015-11-07 12:39:05.128039063 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/view/ScaleGestureDetector.smali	2015-11-07 12:41:46.060041672 +0800
 ***************
 *** 99,105 ****
   .end method

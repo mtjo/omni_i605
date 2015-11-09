@@ -1,5 +1,5 @@
-*** ./smali/android/content/pm/PackageItemInfo.smali	2015-07-14 16:18:34.641731084 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageItemInfo.smali	2015-07-14 16:19:22.005729557 +0800
+*** ./smali/android/content/pm/PackageItemInfo.smali	2015-11-07 12:39:00.032038980 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageItemInfo.smali	2015-11-07 12:41:40.504041582 +0800
 ***************
 *** 342,364 ****
   .end method

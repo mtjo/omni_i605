@@ -1,8 +1,8 @@
-*** ./smali/android/telephony/PhoneStateListener.smali	2015-07-14 16:18:21.161731519 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/telephony/PhoneStateListener.smali	2015-07-14 16:19:07.613730021 +0800
+*** ./smali/android/telephony/PhoneStateListener.smali	2015-11-07 12:38:54.128038885 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/telephony/PhoneStateListener.smali	2015-11-07 12:41:34.308041481 +0800
 ***************
 *** 60,65 ****
---- 60,91 ----
+--- 60,94 ----
       return-void
   .end method
   
@@ -25,13 +25,16 @@
 + 
 +     iput-object v0, p0, Landroid/telephony/PhoneStateListener;->mHandler:Landroid/os/Handler;
 + 
-+     new-instance v0, Landroid/telephony/PhoneStateListener;
-+ 
-+     invoke-direct {v0}, Landroid/telephony/PhoneStateListener;-><init>()V
-+ 
 +     return-void
 + .end method
 + 
++ .method public updateSubscription(I)I
++     .locals 0
++     .param p1, "slotId"    # I
++ 
++     .prologue
++     return p1
++ .end method
   
   # virtual methods
   .method public onCallForwardingIndicatorChanged(Z)V

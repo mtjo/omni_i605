@@ -1,5 +1,5 @@
-*** ./smali/android/net/wifi/WifiConfiguration$Protocol.smali	2015-07-14 16:18:17.557731636 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiConfiguration$Protocol.smali	2015-07-14 16:19:03.565730151 +0800
+*** ./smali/android/net/wifi/WifiConfiguration$Protocol.smali	2015-11-07 12:39:28.124039436 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiConfiguration$Protocol.smali	2015-11-07 12:42:11.452042083 +0800
 ***************
 *** 29,35 ****
       .locals 3

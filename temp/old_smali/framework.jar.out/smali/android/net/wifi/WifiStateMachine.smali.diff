@@ -1,5 +1,5 @@
-*** ./smali/android/net/wifi/WifiStateMachine.smali	2015-07-14 16:18:17.453731639 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiStateMachine.smali	2015-07-14 16:19:03.461730155 +0800
+*** ./smali/android/net/wifi/WifiStateMachine.smali	2015-11-07 12:39:29.368039456 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiStateMachine.smali	2015-11-07 12:42:12.860042106 +0800
 ***************
 *** 936,942 ****
   

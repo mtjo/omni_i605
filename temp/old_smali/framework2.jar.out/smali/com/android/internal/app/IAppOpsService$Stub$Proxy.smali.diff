@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/app/IAppOpsService$Stub$Proxy.smali	2015-07-14 16:18:47.393730673 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/app/IAppOpsService$Stub$Proxy.smali	2015-07-14 16:19:35.157729132 +0800
+*** ./smali/com/android/internal/app/IAppOpsService$Stub$Proxy.smali	2015-11-07 12:39:33.592039524 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/app/IAppOpsService$Stub$Proxy.smali	2015-11-07 12:42:17.372042179 +0800
 ***************
 *** 112,117 ****
 --- 112,184 ----

@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/telephony/PhoneProxy.smali	2015-07-14 16:18:04.609732053 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/PhoneProxy.smali	2015-07-14 16:18:50.945730558 +0800
+*** ./smali/com/android/internal/telephony/PhoneProxy.smali	2015-11-07 12:38:49.504038810 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/PhoneProxy.smali	2015-11-07 12:41:29.332041401 +0800
 ***************
 *** 1547,1552 ****
 --- 1547,1565 ----

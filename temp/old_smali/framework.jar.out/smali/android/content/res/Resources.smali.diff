@@ -1,5 +1,5 @@
-*** ./smali/android/content/res/Resources.smali	2015-07-14 16:18:35.721731050 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/content/res/Resources.smali	2015-07-14 16:19:23.089729522 +0800
+*** ./smali/android/content/res/Resources.smali	2015-11-07 12:39:00.312038985 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/res/Resources.smali	2015-11-07 12:41:40.796041586 +0800
 ***************
 *** 216,222 ****
       return-void

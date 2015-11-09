@@ -1,5 +1,5 @@
-*** ./smali/android/app/ContextImpl.smali	2015-07-14 16:18:27.749731307 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/app/ContextImpl.smali	2015-07-14 16:19:14.513729798 +0800
+*** ./smali/android/app/ContextImpl.smali	2015-11-07 12:38:57.248038935 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/ContextImpl.smali	2015-11-07 12:41:37.544041534 +0800
 ***************
 *** 520,525 ****
 --- 520,527 ----
@@ -30,7 +30,7 @@
       iget-object v1, p1, Landroid/app/ContextImpl;->mBasePackageName:Ljava/lang/String;
 ***************
 *** 1748,1753 ****
---- 1758,1778 ----
+--- 1758,1794 ----
       throw v0
   .end method
   
@@ -38,11 +38,27 @@
 +     .locals 2
 + 
 +     .prologue
++     const-string v0, "jobscheduler"
++ 
++     new-instance v1, Landroid/app/ContextImpl$JobSchedulerServiceFetcher;
++ 
++     invoke-direct {v1}, Landroid/app/ContextImpl$JobSchedulerServiceFetcher;-><init>()V
++ 
++     invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
++ 
 +     const-string v0, "security"
 + 
 +     new-instance v1, Landroid/app/ContextImpl$SecurityServiceFetcher;
 + 
 +     invoke-direct {v1}, Landroid/app/ContextImpl$SecurityServiceFetcher;-><init>()V
++ 
++     invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
++ 
++     const-string v0, "locationpolicy"
++ 
++     new-instance v1, Landroid/app/ContextImpl$LocationPolicyServiceFetcher;
++ 
++     invoke-direct {v1}, Landroid/app/ContextImpl$LocationPolicyServiceFetcher;-><init>()V
 + 
 +     invoke-static {v0, v1}, Landroid/app/ContextImpl;->registerService(Ljava/lang/String;Landroid/app/ContextImpl$ServiceFetcher;)V
 + 

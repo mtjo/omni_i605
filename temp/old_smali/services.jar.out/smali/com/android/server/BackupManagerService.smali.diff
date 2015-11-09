@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/BackupManagerService.smali	2015-07-14 16:18:37.325730998 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/services.jar.out/./smali/com/android/server/BackupManagerService.smali	2015-07-14 16:19:24.769729467 +0800
+*** ./smali/com/android/server/BackupManagerService.smali	2015-11-07 12:38:46.656038763 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/BackupManagerService.smali	2015-11-07 12:41:26.352041352 +0800
 ***************
 *** 35,41 ****
           Lcom/android/server/BackupManagerService$RestoreParams;,

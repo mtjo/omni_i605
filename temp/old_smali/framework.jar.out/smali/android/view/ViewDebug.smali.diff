@@ -1,5 +1,5 @@
-*** ./smali/android/view/ViewDebug.smali	2015-07-14 16:18:23.221731453 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/view/ViewDebug.smali	2015-07-14 16:19:10.065729942 +0800
+*** ./smali/android/view/ViewDebug.smali	2015-11-07 12:39:04.984039061 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/view/ViewDebug.smali	2015-11-07 12:41:45.896041669 +0800
 ***************
 *** 4688,4693 ****
 --- 4688,4701 ----

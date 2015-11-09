@@ -1,5 +1,5 @@
-*** ./smali/android/app/Notification.smali	2015-07-14 16:18:26.145731358 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/app/Notification.smali	2015-07-14 16:19:12.797729854 +0800
+*** ./smali/android/app/Notification.smali	2015-11-07 12:38:57.180038934 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/Notification.smali	2015-11-07 12:41:37.476041533 +0800
 ***************
 *** 139,144 ****
 --- 139,146 ----

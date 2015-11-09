@@ -1,5 +1,5 @@
-*** ./smali/android/graphics/drawable/NinePatchDrawable.smali	2015-07-14 16:18:13.085731780 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/graphics/drawable/NinePatchDrawable.smali	2015-07-14 16:18:59.241730291 +0800
+*** ./smali/android/graphics/drawable/NinePatchDrawable.smali	2015-11-07 12:38:53.580038876 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/graphics/drawable/NinePatchDrawable.smali	2015-11-07 12:41:33.720041472 +0800
 ***************
 *** 254,259 ****
 --- 254,265 ----

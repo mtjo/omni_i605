@@ -1,5 +1,5 @@
-*** ./smali/android/view/WindowManagerPolicy$WindowManagerFuncs.smali	2015-07-14 16:18:23.237731452 +0800
---- /home/mtjo/MIUI/omni-i605/temp/new_smali/framework.jar.out/./smali/android/view/WindowManagerPolicy$WindowManagerFuncs.smali	2015-07-14 16:19:10.077729941 +0800
+*** ./smali/android/view/WindowManagerPolicy$WindowManagerFuncs.smali	2015-11-07 12:39:07.404039100 +0800
+--- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/view/WindowManagerPolicy$WindowManagerFuncs.smali	2015-11-07 12:41:49.036041720 +0800
 ***************
 *** 32,37 ****
 --- 32,40 ----
