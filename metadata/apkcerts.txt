@@ -91,3 +91,4 @@ name="3rd-cn.wps.moffice_eng.apk" certificate="build/target/product/security/pla
 name="3rd-com.sdu.didi.psnger.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="3rd-com.dianping.v1.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"  
 name="TrafficControl.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
+name="MiGalleryLockscreen.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
