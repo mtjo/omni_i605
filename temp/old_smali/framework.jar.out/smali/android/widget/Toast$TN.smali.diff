@@ -1,5 +1,5 @@
-*** ./smali/android/widget/Toast$TN.smali	2015-11-07 12:39:26.672039412 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/widget/Toast$TN.smali	2015-11-07 12:42:09.904042058 +0800
+*** ./smali/android/widget/Toast$TN.smali	2016-01-04 14:05:49.997995462 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/widget/Toast$TN.smali	2016-01-04 14:09:39.725999186 +0800
 ***************
 *** 168,173 ****
 --- 168,182 ----

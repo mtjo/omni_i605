@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/telephony/IccProvider.smali	2015-11-07 12:38:48.336038791 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/IccProvider.smali	2015-11-07 12:41:28.144041381 +0800
+*** ./smali/com/android/internal/telephony/IccProvider.smali	2016-01-04 14:04:53.761994550 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/IccProvider.smali	2016-01-04 14:08:27.965998023 +0800
 ***************
 *** 4,10 ****
   

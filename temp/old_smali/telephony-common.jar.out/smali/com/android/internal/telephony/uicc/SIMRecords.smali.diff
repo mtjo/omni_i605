@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/telephony/uicc/SIMRecords.smali	2015-11-07 12:38:47.788038782 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/uicc/SIMRecords.smali	2015-11-07 12:41:27.592041372 +0800
+*** ./smali/com/android/internal/telephony/uicc/SIMRecords.smali	2016-01-04 14:04:52.417994528 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/uicc/SIMRecords.smali	2016-01-04 14:08:27.001998007 +0800
 ***************
 *** 978,983 ****
 --- 978,991 ----

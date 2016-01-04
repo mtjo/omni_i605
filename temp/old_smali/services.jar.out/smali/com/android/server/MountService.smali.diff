@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/MountService.smali	2015-11-07 12:38:44.524038729 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/MountService.smali	2015-11-07 12:41:24.084041316 +0800
+*** ./smali/com/android/server/MountService.smali	2016-01-04 14:04:48.317994462 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/MountService.smali	2016-01-04 14:08:18.617997871 +0800
 ***************
 *** 1456,1461 ****
 --- 1456,1773 ----

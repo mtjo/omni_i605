@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/os/ZygoteInit.smali	2015-11-07 12:39:35.972039563 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/os/ZygoteInit.smali	2015-11-07 12:42:19.780042218 +0800
+*** ./smali/com/android/internal/os/ZygoteInit.smali	2016-01-04 14:06:01.285995645 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/os/ZygoteInit.smali	2016-01-04 14:09:53.049999402 +0800
 ***************
 *** 450,455 ****
 --- 450,457 ----

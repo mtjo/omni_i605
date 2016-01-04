@@ -1,5 +1,5 @@
-*** ./smali/android/net/wifi/WifiConfigStore.smali	2015-11-07 12:39:29.392039456 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiConfigStore.smali	2015-11-07 12:42:12.884042107 +0800
+*** ./smali/android/net/wifi/WifiConfigStore.smali	2016-01-04 14:05:53.197995514 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiConfigStore.smali	2016-01-04 14:09:44.393999262 +0800
 ***************
 *** 84,89 ****
 --- 84,91 ----

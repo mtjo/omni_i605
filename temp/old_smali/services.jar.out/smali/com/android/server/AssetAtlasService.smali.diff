@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/AssetAtlasService.smali	2015-11-07 12:38:45.704038748 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/AssetAtlasService.smali	2015-11-07 12:41:25.328041336 +0800
+*** ./smali/com/android/server/AssetAtlasService.smali	2016-01-04 14:04:49.669994484 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/AssetAtlasService.smali	2016-01-04 14:08:21.065997911 +0800
 ***************
 *** 35,40 ****
 --- 35,42 ----

@@ -1,5 +1,5 @@
-*** ./smali/android/webkit/WebView.smali	2015-11-07 12:38:54.828038896 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/webkit/WebView.smali	2015-11-07 12:41:35.032041493 +0800
+*** ./smali/android/webkit/WebView.smali	2016-01-04 14:05:09.337994803 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/webkit/WebView.smali	2016-01-04 14:08:40.793998231 +0800
 ***************
 *** 167,172 ****
 --- 167,176 ----

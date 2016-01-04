@@ -1,5 +1,5 @@
-*** ./smali/android/net/wifi/WifiEnterpriseConfig.smali	2015-11-07 12:39:28.424039441 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiEnterpriseConfig.smali	2015-11-07 12:42:11.768042089 +0800
+*** ./smali/android/net/wifi/WifiEnterpriseConfig.smali	2016-01-04 14:05:52.049995495 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiEnterpriseConfig.smali	2016-01-04 14:09:43.033999240 +0800
 ***************
 *** 1933,1938 ****
 --- 1933,1940 ----

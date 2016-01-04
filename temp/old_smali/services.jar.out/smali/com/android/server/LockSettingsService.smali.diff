@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/LockSettingsService.smali	2015-11-07 12:38:44.484038728 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/LockSettingsService.smali	2015-11-07 12:41:24.040041315 +0800
+*** ./smali/com/android/server/LockSettingsService.smali	2016-01-04 14:04:48.109994459 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/LockSettingsService.smali	2016-01-04 14:08:18.529997870 +0800
 ***************
 *** 6,12 ****
   # annotations

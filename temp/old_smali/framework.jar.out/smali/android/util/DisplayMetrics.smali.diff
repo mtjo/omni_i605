@@ -1,5 +1,5 @@
-*** ./smali/android/util/DisplayMetrics.smali	2015-11-07 12:39:04.260039049 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/util/DisplayMetrics.smali	2015-11-07 12:41:44.976041654 +0800
+*** ./smali/android/util/DisplayMetrics.smali	2016-01-04 14:05:21.697995003 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/util/DisplayMetrics.smali	2016-01-04 14:08:58.713998521 +0800
 ***************
 *** 21,26 ****
 --- 21,28 ----

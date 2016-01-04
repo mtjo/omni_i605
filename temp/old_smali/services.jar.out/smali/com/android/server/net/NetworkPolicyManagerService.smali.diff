@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/net/NetworkPolicyManagerService.smali	2015-11-07 12:38:46.528038761 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/net/NetworkPolicyManagerService.smali	2015-11-07 12:41:26.224041350 +0800
+*** ./smali/com/android/server/net/NetworkPolicyManagerService.smali	2016-01-04 14:04:50.601994499 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/net/NetworkPolicyManagerService.smali	2016-01-04 14:08:22.817997939 +0800
 ***************
 *** 4324,4329 ****
 --- 4324,4331 ----

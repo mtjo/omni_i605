@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/widget/LockPatternUtils.smali	2015-11-07 12:39:36.620039573 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/widget/LockPatternUtils.smali	2015-11-07 12:42:20.428042229 +0800
+*** ./smali/com/android/internal/widget/LockPatternUtils.smali	2016-01-04 14:06:02.189995660 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/widget/LockPatternUtils.smali	2016-01-04 14:09:53.813999415 +0800
 ***************
 *** 1845,1850 ****
 --- 1845,1860 ----

@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/BackupManagerService$PerformFullRestoreTask.smali	2015-11-07 12:38:41.916038687 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/BackupManagerService$PerformFullRestoreTask.smali	2015-11-07 12:41:21.376041272 +0800
+*** ./smali/com/android/server/BackupManagerService$PerformFullRestoreTask.smali	2016-01-04 14:04:44.765994404 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/BackupManagerService$PerformFullRestoreTask.smali	2016-01-04 14:08:13.061997781 +0800
 ***************
 *** 1484,1490 ****
       move-result v7

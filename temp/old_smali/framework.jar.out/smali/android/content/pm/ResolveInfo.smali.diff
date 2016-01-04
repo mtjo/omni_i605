@@ -1,5 +1,5 @@
-*** ./smali/android/content/pm/ResolveInfo.smali	2015-11-07 12:38:59.852038977 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/pm/ResolveInfo.smali	2015-11-07 12:41:40.300041578 +0800
+*** ./smali/android/content/pm/ResolveInfo.smali	2016-01-04 14:05:16.573994920 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/content/pm/ResolveInfo.smali	2016-01-04 14:08:49.753998376 +0800
 ***************
 *** 821,826 ****
 --- 821,830 ----

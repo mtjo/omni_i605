@@ -1,5 +1,5 @@
-*** ./smali/android/app/ContextImpl.smali	2015-11-07 12:38:57.248038935 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/ContextImpl.smali	2015-11-07 12:41:37.544041534 +0800
+*** ./smali/android/app/ContextImpl.smali	2016-01-04 14:05:13.521994871 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/app/ContextImpl.smali	2016-01-04 14:08:45.229998303 +0800
 ***************
 *** 520,525 ****
 --- 520,527 ----

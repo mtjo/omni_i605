@@ -1,5 +1,5 @@
-*** ./smali/android/app/LoadedApk.smali	2015-11-07 12:38:55.632038909 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/LoadedApk.smali	2015-11-07 12:41:35.872041507 +0800
+*** ./smali/android/app/LoadedApk.smali	2016-01-04 14:05:10.477994821 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/app/LoadedApk.smali	2016-01-04 14:08:42.449998258 +0800
 ***************
 *** 1812,1817 ****
 --- 1812,1823 ----

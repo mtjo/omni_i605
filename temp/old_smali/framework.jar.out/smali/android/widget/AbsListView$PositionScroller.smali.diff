@@ -1,5 +1,5 @@
-*** ./smali/android/widget/AbsListView$PositionScroller.smali	2015-11-07 12:39:27.040039418 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/widget/AbsListView$PositionScroller.smali	2015-11-07 12:42:10.276042064 +0800
+*** ./smali/android/widget/AbsListView$PositionScroller.smali	2016-01-04 14:05:50.441995469 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/widget/AbsListView$PositionScroller.smali	2016-01-04 14:09:41.249999211 +0800
 ***************
 *** 238,244 ****
       :goto_1

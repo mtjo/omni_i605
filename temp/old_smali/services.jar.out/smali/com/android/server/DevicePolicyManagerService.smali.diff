@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/DevicePolicyManagerService.smali	2015-11-07 12:38:45.652038747 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/DevicePolicyManagerService.smali	2015-11-07 12:41:25.268041335 +0800
+*** ./smali/com/android/server/DevicePolicyManagerService.smali	2016-01-04 14:04:49.613994483 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/DevicePolicyManagerService.smali	2016-01-04 14:08:20.957997909 +0800
 ***************
 *** 378,425 ****
   .end method

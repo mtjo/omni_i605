@@ -1,5 +1,5 @@
-*** ./smali/android/content/Intent.smali	2015-11-07 12:38:58.932038962 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/Intent.smali	2015-11-07 12:41:39.280041562 +0800
+*** ./smali/android/content/Intent.smali	2016-01-04 14:05:15.457994902 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/content/Intent.smali	2016-01-04 14:08:48.245998352 +0800
 ***************
 *** 621,626 ****
 --- 621,628 ----

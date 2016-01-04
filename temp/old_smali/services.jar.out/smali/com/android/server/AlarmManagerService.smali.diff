@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/AlarmManagerService.smali	2015-11-07 12:38:44.720038732 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/AlarmManagerService.smali	2015-11-07 12:41:24.292041319 +0800
+*** ./smali/com/android/server/AlarmManagerService.smali	2016-01-04 14:04:48.649994467 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/AlarmManagerService.smali	2016-01-04 14:08:19.089997879 +0800
 ***************
 *** 7,12 ****
 --- 7,13 ----
@@ -11,8 +11,36 @@
           Lcom/android/server/AlarmManagerService$ClockReceiver;,
           Lcom/android/server/AlarmManagerService$AlarmHandler;,
 ***************
+*** 1536,1547 ****
+--- 1537,1561 ----
+  
+      iput v2, v0, Lcom/android/server/AlarmManagerService$Alarm;->count:I
+  
++     move-object/from16 v0, p0
++ 
++     iget-object v2, v0, Lcom/android/server/AlarmManagerService;->mContext:Landroid/content/Context;
++ 
++     move-object/from16 v0, v23
++ 
++     invoke-static {v2, v0}, Lcom/android/server/AlarmManagerServiceInjector;->checkAlarmIsAllowedSend(Landroid/content/Context;Lcom/android/server/AlarmManagerService$Alarm;)Z
++ 
++     move-result v2
++ 
++     if-eqz v2, :cond_miui_3
++ 
+      move-object/from16 v0, p1
+  
+      move-object/from16 v1, v23
+  
+      invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+  
++     :cond_miui_3
+      move-object/from16 v0, v23
+  
+      iget-wide v2, v0, Lcom/android/server/AlarmManagerService$Alarm;->repeatInterval:J
+***************
 *** 3444,3449 ****
---- 3445,3472 ----
+--- 3458,3485 ----
       return-void
   
       :cond_0

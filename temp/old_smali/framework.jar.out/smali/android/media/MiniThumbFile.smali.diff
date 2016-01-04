@@ -1,5 +1,5 @@
-*** ./smali/android/media/MiniThumbFile.smali	2015-11-07 12:39:11.168039161 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/media/MiniThumbFile.smali	2015-11-07 12:41:53.128041786 +0800
+*** ./smali/android/media/MiniThumbFile.smali	2016-01-04 14:05:30.745995150 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/media/MiniThumbFile.smali	2016-01-04 14:09:11.845998734 +0800
 ***************
 *** 3,8 ****
 --- 3,16 ----

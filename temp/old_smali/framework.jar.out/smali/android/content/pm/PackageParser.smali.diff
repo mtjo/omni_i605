@@ -1,5 +1,5 @@
-*** ./smali/android/content/pm/PackageParser.smali	2015-11-07 12:38:59.944038979 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageParser.smali	2015-11-07 12:41:40.400041580 +0800
+*** ./smali/android/content/pm/PackageParser.smali	2016-01-04 14:05:16.709994922 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageParser.smali	2016-01-04 14:08:49.881998378 +0800
 ***************
 *** 15179,15185 ****
       .local v25, "cookie":I

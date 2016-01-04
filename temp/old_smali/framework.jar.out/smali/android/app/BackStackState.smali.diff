@@ -1,5 +1,5 @@
-*** ./smali/android/app/BackStackState.smali	2015-11-07 12:38:56.436038922 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/BackStackState.smali	2015-11-07 12:41:36.688041520 +0800
+*** ./smali/android/app/BackStackState.smali	2016-01-04 14:05:11.477994837 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/app/BackStackState.smali	2016-01-04 14:08:43.917998281 +0800
 ***************
 *** 672,677 ****
 --- 672,693 ----

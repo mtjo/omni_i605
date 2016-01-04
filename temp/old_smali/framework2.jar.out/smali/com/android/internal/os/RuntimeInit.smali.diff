@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/os/RuntimeInit.smali	2015-11-07 12:39:36.152039566 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework2.jar.out/./smali/com/android/internal/os/RuntimeInit.smali	2015-11-07 12:42:19.976042222 +0800
+*** ./smali/com/android/internal/os/RuntimeInit.smali	2016-01-04 14:06:01.517995649 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework2.jar.out/./smali/com/android/internal/os/RuntimeInit.smali	2016-01-04 14:09:53.261999406 +0800
 ***************
 *** 167,173 ****
   

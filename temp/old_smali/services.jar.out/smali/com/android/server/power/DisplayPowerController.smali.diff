@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/power/DisplayPowerController.smali	2015-11-07 12:38:37.924038622 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/power/DisplayPowerController.smali	2015-11-07 12:41:18.216041220 +0800
+*** ./smali/com/android/server/power/DisplayPowerController.smali	2016-01-04 14:04:40.857994341 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/power/DisplayPowerController.smali	2016-01-04 14:08:09.005997715 +0800
 ***************
 *** 2172,2178 ****
   

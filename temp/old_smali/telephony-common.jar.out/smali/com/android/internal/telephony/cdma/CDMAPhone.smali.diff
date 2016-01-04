@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/telephony/cdma/CDMAPhone.smali	2015-11-07 12:38:49.328038807 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/cdma/CDMAPhone.smali	2015-11-07 12:41:29.124041397 +0800
+*** ./smali/com/android/internal/telephony/cdma/CDMAPhone.smali	2016-01-04 14:04:55.241994574 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/telephony-common.jar.out/./smali/com/android/internal/telephony/cdma/CDMAPhone.smali	2016-01-04 14:08:30.485998064 +0800
 ***************
 *** 1284,1289 ****
 --- 1284,1298 ----

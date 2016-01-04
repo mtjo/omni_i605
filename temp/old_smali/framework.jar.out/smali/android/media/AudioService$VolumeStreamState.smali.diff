@@ -1,5 +1,5 @@
-*** ./smali/android/media/AudioService$VolumeStreamState.smali	2015-11-07 12:39:10.996039158 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/media/AudioService$VolumeStreamState.smali	2015-11-07 12:41:52.932041783 +0800
+*** ./smali/android/media/AudioService$VolumeStreamState.smali	2016-01-04 14:05:30.553995147 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/media/AudioService$VolumeStreamState.smali	2016-01-04 14:09:11.317998726 +0800
 ***************
 *** 514,519 ****
 --- 514,547 ----

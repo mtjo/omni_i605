@@ -1,5 +1,5 @@
-*** ./smali/android/content/res/AssetManager.smali	2015-11-07 12:39:00.284038984 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/res/AssetManager.smali	2015-11-07 12:41:40.760041586 +0800
+*** ./smali/android/content/res/AssetManager.smali	2016-01-04 14:05:17.117994929 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/content/res/AssetManager.smali	2016-01-04 14:08:50.649998391 +0800
 ***************
 *** 127,132 ****
 --- 127,134 ----

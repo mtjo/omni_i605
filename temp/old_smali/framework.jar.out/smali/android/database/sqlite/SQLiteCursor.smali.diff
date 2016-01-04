@@ -1,5 +1,5 @@
-*** ./smali/android/database/sqlite/SQLiteCursor.smali	2015-11-07 12:39:08.560039119 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/database/sqlite/SQLiteCursor.smali	2015-11-07 12:41:50.304041741 +0800
+*** ./smali/android/database/sqlite/SQLiteCursor.smali	2016-01-04 14:05:27.781995102 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/database/sqlite/SQLiteCursor.smali	2016-01-04 14:09:07.037998656 +0800
 ***************
 *** 594,599 ****
 --- 594,603 ----

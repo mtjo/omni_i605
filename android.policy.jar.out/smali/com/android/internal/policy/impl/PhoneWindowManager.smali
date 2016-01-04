@@ -218,6 +218,7 @@
 .field mBroadcastWakeLock:Landroid/os/PowerManager$WakeLock;
 
 .field private mButtonLightEnabled:Z
+
 .field mCarDockEnablesAccelerometer:Z
 
 .field mCarDockIntent:Landroid/content/Intent;
@@ -502,6 +503,7 @@
 .field private mPressOnHomeBehavior:I
 
 .field private mPressOnMenuBehavior:I
+
 .field private final mQuickBootLock:Ljava/lang/Object;
 
 .field mRecentAppsDialog:Lcom/android/internal/policy/impl/RecentApplicationsDialog;

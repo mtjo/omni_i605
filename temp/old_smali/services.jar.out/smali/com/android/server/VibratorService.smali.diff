@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/VibratorService.smali	2015-11-07 12:38:45.812038750 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/VibratorService.smali	2015-11-07 12:41:25.464041338 +0800
+*** ./smali/com/android/server/VibratorService.smali	2016-01-04 14:04:49.797994486 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/VibratorService.smali	2016-01-04 14:08:21.325997915 +0800
 ***************
 *** 20,25 ****
 --- 20,29 ----

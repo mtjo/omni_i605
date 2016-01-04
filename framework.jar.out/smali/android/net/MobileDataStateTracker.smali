@@ -47,7 +47,6 @@
 
 .field private mNetworkInfo:Landroid/net/NetworkInfo;
 
-.field private mPhoneServices:Lcom/android/internal/telephony/ITelephony;
 .field private mPhoneServices:[Lcom/android/internal/telephony/ITelephony;
 
 .field private final mPhoneStateListener:Landroid/telephony/PhoneStateListener;
@@ -736,7 +735,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v4, "phone."
+    const-string v4, "phone."
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -775,7 +774,7 @@
 
     .prologue
     .line 373
-    iget-object v0, p0, Landroid/net/MobileDataStateTracker;->mPhoneServices:Lcom/android/internal/telephony/ITelephony;
+    iget-object v0, p0, Landroid/net/MobileDataStateTracker;->mPhoneService:Lcom/android/internal/telephony/ITelephony;
 
     if-eqz v0, :cond_0
 
@@ -793,7 +792,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Landroid/net/MobileDataStateTracker;->mPhoneServices:Lcom/android/internal/telephony/ITelephony;
+    iput-object v0, p0, Landroid/net/MobileDataStateTracker;->mPhoneService:Lcom/android/internal/telephony/ITelephony;
 
     .line 376
     :cond_1
@@ -926,7 +925,7 @@
 
     .line 731
     :pswitch_2
-    const-string/jumbo v0, "mms"
+    const-string v0, "mms"
 
     goto :goto_0
 
@@ -1393,7 +1392,7 @@
     if-ge v1, v2, :cond_0
 
     .line 706
-    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneServices:Lcom/android/internal/telephony/ITelephony;
+    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneService:Lcom/android/internal/telephony/ITelephony;
 
     if-nez v2, :cond_1
 
@@ -1457,7 +1456,7 @@
 
     .line 713
     :try_start_0
-    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneServices:Lcom/android/internal/telephony/ITelephony;
+    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneService:Lcom/android/internal/telephony/ITelephony;
 
     invoke-interface {v2, p1}, Lcom/android/internal/telephony/ITelephony;->enableApnType(Ljava/lang/String;)I
 
@@ -1467,7 +1466,7 @@
 
     .line 715
     :cond_2
-    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneServices:Lcom/android/internal/telephony/ITelephony;
+    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneService:Lcom/android/internal/telephony/ITelephony;
 
     invoke-interface {v2, p1}, Lcom/android/internal/telephony/ITelephony;->disableApnType(Ljava/lang/String;)I
     :try_end_0
@@ -2843,7 +2842,7 @@
     if-ge v1, v2, :cond_0
 
     .line 556
-    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneServices:Lcom/android/internal/telephony/ITelephony;
+    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneService:Lcom/android/internal/telephony/ITelephony;
 
     if-nez v2, :cond_1
 
@@ -2888,7 +2887,7 @@
     .line 562
     :cond_1
     :try_start_0
-    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneServices:Lcom/android/internal/telephony/ITelephony;
+    iget-object v2, p0, Landroid/net/MobileDataStateTracker;->mPhoneService:Lcom/android/internal/telephony/ITelephony;
 
     invoke-interface {v2, p1}, Lcom/android/internal/telephony/ITelephony;->setRadio(Z)Z
     :try_end_0

@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/NotificationManagerService.smali	2015-11-07 12:38:37.276038611 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/NotificationManagerService.smali	2015-11-07 12:41:17.412041207 +0800
+*** ./smali/com/android/server/NotificationManagerService.smali	2016-01-04 14:04:40.033994328 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/NotificationManagerService.smali	2016-01-04 14:08:08.065997700 +0800
 ***************
 *** 3287,3293 ****
   .end method

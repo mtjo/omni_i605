@@ -1,5 +1,5 @@
-*** ./smali/android/telephony/TelephonyManager.smali	2015-11-07 12:38:54.144038885 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/telephony/TelephonyManager.smali	2015-11-07 12:41:34.324041482 +0800
+*** ./smali/android/telephony/TelephonyManager.smali	2016-01-04 14:05:06.289994753 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/telephony/TelephonyManager.smali	2016-01-04 14:08:39.657998212 +0800
 ***************
 *** 3033,3038 ****
 --- 3033,3055 ----

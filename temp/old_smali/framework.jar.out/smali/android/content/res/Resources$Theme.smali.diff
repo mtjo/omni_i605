@@ -1,5 +1,5 @@
-*** ./smali/android/content/res/Resources$Theme.smali	2015-11-07 12:39:00.204038983 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/res/Resources$Theme.smali	2015-11-07 12:41:40.676041585 +0800
+*** ./smali/android/content/res/Resources$Theme.smali	2016-01-04 14:05:17.021994927 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/content/res/Resources$Theme.smali	2016-01-04 14:08:50.453998387 +0800
 ***************
 *** 135,141 ****
   

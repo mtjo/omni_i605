@@ -1,5 +1,5 @@
-*** ConnectivityService.smali	2015-11-07 12:38:44.396038727 +0800
---- ConnectivityService.smali	2015-11-07 12:41:23.952041313 +0800
+*** ConnectivityService.smali	2016-01-04 14:04:47.913994455 +0800
+--- ConnectivityService.smali	2016-01-04 14:08:18.329997867 +0800
 ***************
 *** 732,737 ****
       .end local v17    # "id":Ljava/lang/String;

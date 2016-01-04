@@ -1,5 +1,18 @@
-*** ./smali/android/widget/TextView.smali	2015-11-07 12:39:23.124039355 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/widget/TextView.smali	2015-11-07 12:42:06.012041995 +0800
+*** ./smali/android/widget/TextView.smali	2016-01-04 14:05:45.685995392 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/widget/TextView.smali	2016-01-04 14:09:31.525999053 +0800
+***************
+*** 8104,8109 ****
+--- 8104,8113 ----
+      packed-switch p2, :pswitch_data_0
+  
+      :goto_1
++     invoke-static {v0, p2, p3}, Landroid/graphics/MiuiTypeface;->getChangedTypeface(Landroid/graphics/Typeface;II)Landroid/graphics/Typeface;
++ 
++     move-result-object v0
++ 
+      invoke-virtual {p0, v0, p3}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
+  
+      goto :goto_0
 ***************
 *** 20116,20128 ****
   
@@ -15,10 +28,10 @@
       return-void
   .end method
   
---- 20116,20121 ----
+--- 20120,20125 ----
 ***************
 *** 22798,22803 ****
---- 22791,22835 ----
+--- 22795,22839 ----
       return-void
   .end method
   
@@ -66,7 +79,7 @@
       .param p1, "start"    # I
 ***************
 *** 25382,25387 ****
---- 25414,25427 ----
+--- 25418,25431 ----
       .param p1, "tf"    # Landroid/graphics/Typeface;
   
       .prologue
@@ -83,7 +96,7 @@
       invoke-virtual {v0}, Landroid/text/TextPaint;->getTypeface()Landroid/graphics/Typeface;
 ***************
 *** 25429,25434 ****
---- 25469,25478 ----
+--- 25473,25482 ----
       :goto_0
       invoke-virtual {p0, p1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
   
@@ -94,3 +107,16 @@
       if-eqz p1, :cond_2
   
       invoke-virtual {p1}, Landroid/graphics/Typeface;->getStyle()I
+***************
+*** 25499,25504 ****
+--- 25547,25556 ----
+  
+      invoke-virtual {v2, v3}, Landroid/text/TextPaint;->setTextSkewX(F)V
+  
++     invoke-static {p1}, Landroid/graphics/MiuiTypeface;->getDefaultTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
++ 
++     move-result-object p1
++ 
+      invoke-virtual {p0, p1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
+  
+      goto :goto_3

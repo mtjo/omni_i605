@@ -1,5 +1,5 @@
-*** ./smali/android/media/MediaMetadataEditor.smali	2015-11-07 12:39:09.940039141 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/media/MediaMetadataEditor.smali	2015-11-07 12:41:51.760041764 +0800
+*** ./smali/android/media/MediaMetadataEditor.smali	2016-01-04 14:05:29.289995126 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/media/MediaMetadataEditor.smali	2016-01-04 14:09:09.125998690 +0800
 ***************
 *** 140,145 ****
 --- 140,151 ----

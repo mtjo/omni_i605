@@ -1,5 +1,5 @@
-*** ./smali/android/media/MediaFile.smali	2015-11-07 12:39:10.244039146 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/media/MediaFile.smali	2015-11-07 12:41:52.096041770 +0800
+*** ./smali/android/media/MediaFile.smali	2016-01-04 14:05:29.729995133 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/media/MediaFile.smali	2016-01-04 14:09:09.613998698 +0800
 ***************
 *** 413,418 ****
 --- 413,426 ----

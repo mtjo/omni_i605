@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/LightsService$1.smali	2015-11-07 12:38:41.264038676 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/LightsService$1.smali	2015-11-07 12:41:20.724041261 +0800
+*** ./smali/com/android/server/LightsService$1.smali	2016-01-04 14:04:43.889994390 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/LightsService$1.smali	2016-01-04 14:08:12.361997770 +0800
 ***************
 *** 78,83 ****
 --- 78,115 ----

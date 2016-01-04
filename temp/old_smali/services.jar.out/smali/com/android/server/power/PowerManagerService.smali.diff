@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/power/PowerManagerService.smali	2015-11-07 12:38:38.104038625 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/power/PowerManagerService.smali	2015-11-07 12:41:18.444041224 +0800
+*** ./smali/com/android/server/power/PowerManagerService.smali	2016-01-04 14:04:41.085994345 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/power/PowerManagerService.smali	2016-01-04 14:08:09.261997720 +0800
 ***************
 *** 673,678 ****
 --- 673,695 ----
@@ -181,6 +181,26 @@
   
       .restart local v1    # "newScreenState":I
 ***************
+*** 4210,4215 ****
+--- 4260,4276 ----
+      .local v0, "index":I
+      if-gez v0, :cond_0
+  
++     invoke-static {}, Lcom/android/server/power/PowerManagerServiceInjector;->checkWakelockBlockedEnabled()Z
++ 
++     move-result v2
++ 
++     if-eqz v2, :cond_miui_0
++ 
++     monitor-exit v3
++ 
++     return-void
++ 
++     :cond_miui_0
+      new-instance v2, Ljava/lang/IllegalArgumentException;
+  
+      const-string v4, "Wake lock not active"
+***************
 *** 4308,4314 ****
       :cond_1
       const/4 v3, 0x2
@@ -189,7 +209,7 @@
   
       move-result v0
   
---- 4358,4364 ----
+--- 4369,4375 ----
       :cond_1
       const/4 v3, 0x2
   
@@ -199,7 +219,7 @@
   
 ***************
 *** 4385,4390 ****
---- 4435,4442 ----
+--- 4446,4453 ----
   
       const/4 v1, 0x0
   
@@ -217,7 +237,7 @@
       .param p1, "context"    # Landroid/content/Context;
       .param p2, "ls"    # Lcom/android/server/LightsService;
       .param p3, "am"    # Lcom/android/server/am/ActivityManagerService;
---- 6381,6387 ----
+--- 6392,6398 ----
   .end method
   
   .method public init(Landroid/content/Context;Lcom/android/server/LightsService;Lcom/android/server/am/ActivityManagerService;Lcom/android/server/BatteryService;Lcom/android/internal/app/IBatteryStats;Lcom/android/internal/app/IAppOpsService;Lcom/android/server/display/DisplayManagerService;)V
@@ -227,7 +247,7 @@
       .param p3, "am"    # Lcom/android/server/am/ActivityManagerService;
 ***************
 *** 6395,6400 ****
---- 6447,6462 ----
+--- 6458,6473 ----
   
       invoke-virtual {v0, v1, v2}, Lcom/android/server/Watchdog;->addThread(Landroid/os/Handler;Ljava/lang/String;)V
   
@@ -253,7 +273,7 @@
       :try_end_0
       .catchall {:try_start_0 .. :try_end_0} :catchall_0
   
---- 6666,6672 ----
+--- 6677,6683 ----
   
       .local v0, "ident":J
       :try_start_0
@@ -263,7 +283,7 @@
   
 ***************
 *** 7470,7475 ****
---- 7532,7559 ----
+--- 7543,7570 ----
       invoke-direct/range {p0 .. p0}, Lcom/android/server/power/PowerManagerService;->updatePowerStateLocked()V
   
       monitor-exit v18
@@ -303,7 +323,7 @@
   
       throw v2
   .end method
---- 7564,7573 ----
+--- 7575,7584 ----
       :catchall_0
       move-exception v2
   

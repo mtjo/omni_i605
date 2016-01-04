@@ -1,5 +1,5 @@
-*** ViewConfiguration.smali	2015-11-07 12:39:05.088039062 +0800
---- ViewConfiguration.smali	2015-11-07 12:41:46.008041671 +0800
+*** ViewConfiguration.smali	2016-01-04 14:05:22.977995024 +0800
+--- ViewConfiguration.smali	2016-01-04 14:09:00.277998547 +0800
 ***************
 *** 356,361 ****
   

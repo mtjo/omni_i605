@@ -1,5 +1,5 @@
-*** ./smali/android/app/FragmentManagerImpl$6.smali	2015-11-07 12:38:56.332038920 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/app/FragmentManagerImpl$6.smali	2015-11-07 12:41:36.576041518 +0800
+*** ./smali/android/app/FragmentManagerImpl$6.smali	2016-01-04 14:05:11.357994835 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/app/FragmentManagerImpl$6.smali	2016-01-04 14:08:43.761998279 +0800
 ***************
 *** 49,54 ****
 --- 49,60 ----

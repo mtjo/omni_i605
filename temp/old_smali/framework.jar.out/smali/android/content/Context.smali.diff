@@ -1,5 +1,5 @@
-*** ./smali/android/content/Context.smali	2015-11-07 12:38:59.008038964 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/framework.jar.out/./smali/android/content/Context.smali	2015-11-07 12:41:39.364041563 +0800
+*** ./smali/android/content/Context.smali	2016-01-04 14:05:15.549994903 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/framework.jar.out/./smali/android/content/Context.smali	2016-01-04 14:08:48.345998353 +0800
 ***************
 *** 166,171 ****
 --- 166,190 ----

@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/pm/PackageManagerService.smali	2015-11-07 12:38:40.740038667 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/pm/PackageManagerService.smali	2015-11-07 12:41:20.180041252 +0800
+*** ./smali/com/android/server/pm/PackageManagerService.smali	2016-01-04 14:04:43.149994378 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/pm/PackageManagerService.smali	2016-01-04 14:08:11.473997755 +0800
 ***************
 *** 917,922 ****
 --- 917,930 ----

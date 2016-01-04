@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/NotificationManagerService$5.smali	2015-11-07 12:38:44.464038728 +0800
---- /home/mtjo/patchrom/omni_i605_v7/temp/new_smali/services.jar.out/./smali/com/android/server/NotificationManagerService$5.smali	2015-11-07 12:41:24.024041315 +0800
+*** ./smali/com/android/server/NotificationManagerService$5.smali	2016-01-04 14:04:48.077994458 +0800
+--- /home/mtjo/patchrom/omni_i605/temp/new_smali/services.jar.out/./smali/com/android/server/NotificationManagerService$5.smali	2016-01-04 14:08:18.485997869 +0800
 ***************
 *** 382,387 ****
 --- 382,394 ----
