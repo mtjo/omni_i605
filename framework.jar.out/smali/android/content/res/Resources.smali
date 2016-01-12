@@ -1188,7 +1188,7 @@
 
     .line 310
     :pswitch_4
-    const-string v0, "many"
+    const-string/jumbo v0, "many"
 
     goto :goto_0
 
@@ -2678,7 +2678,7 @@
     .line 1737
     new-instance v0, Ljava/lang/NullPointerException;
 
-    const-string v1, "name is null"
+    const-string/jumbo v1, "name is null"
 
     invoke-direct {v0, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 

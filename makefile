@@ -44,3 +44,5 @@ include $(PORT_BUILD)/porting.mk
 
 adjust_apps_location:
 	cp $(ZIP_DIR)/system/app/QuickSearchBox.apk $(ZIP_DIR)/system/priv-app/QuickSearchBox.apk
+	cp ./other/com.android.systemui $(ZIP_DIR)/system/media/theme/default/com.android.systemui
+	cp ./other/libsupport_classproxy_19.so $(ZIP_DIR)/system/lib/libsupport_classproxy_19.so
